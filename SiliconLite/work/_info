@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/SiliconLite
+vsiliconlite_cpu
+Z1 !s110 1793030871
+!i10b 1
+!s100 ==`<0ZkMVzY=M5TWoLQ^71
+I<j0CZRBQ@a2>PhV_S9Ih^1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1793030728
+8rtl/siliconlite_cpu.v
+Frtl/siliconlite_cpu.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1793030871.000000
+Z5 !s107 tb/tb_siliconlite_cpu.v|rtl/siliconlite_cpu.v|
+Z6 !s90 rtl/siliconlite_cpu.v|tb/tb_siliconlite_cpu.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb_siliconlite_cpu
+R1
+!i10b 1
+!s100 3`L;n6Q]j[=M[4@WNGi]N1
+I3B:UaDNCGO41Ga;aS]Fih0
+R2
+R0
+w1793030785
+8tb/tb_siliconlite_cpu.v
+Ftb/tb_siliconlite_cpu.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
