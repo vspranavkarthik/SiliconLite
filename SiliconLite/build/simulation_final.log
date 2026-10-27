@@ -1,0 +1,45 @@
+Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do {scripts\run_modelsim.do}
+# if {[file exists work]} {vdel -lib work -all}
+# vlib work
+# vlog rtl/siliconlite_cpu.v tb/tb_siliconlite_cpu.v
+# Start time: 21:37:51 on Oct 26,2026
+# vlog rtl/siliconlite_cpu.v tb/tb_siliconlite_cpu.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module siliconlite_cpu
+# -- Compiling module tb_siliconlite_cpu
+# 
+# Top level modules:
+# 	tb_siliconlite_cpu
+# End time: 21:37:51 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_siliconlite_cpu
+# vsim work.tb_siliconlite_cpu 
+# Start time: 21:37:51 on Oct 26,2026
+# Loading work.tb_siliconlite_cpu
+# Loading work.siliconlite_cpu
+# run -all
+# PASS ADDI baseline: x1 = 5
+# PASS ADDI baseline: x2 = 7
+# PASS ALU forwarding: x3 = 12
+# PASS load result: x4 = 12
+# PASS load-use stall: x5 = 13
+# PASS branch compare operand: x6 = 13
+# PASS BEQ flush: x7 = 42
+# PASS BNE flush: x8 = 8
+# PASS AND operation: x9 = 5
+# PASS OR operation: x10 = 7
+# PASS SUB operation: x11 = 2
+# PASS memory[0] = 12 (SW/LW)
+# 
+# === SiliconLite Verification Summary ===
+# Cycles=65 LoadUseStalls=1 TakenBranches=2
+# Instruction bins: R-type=4 LW=1 SW=1 Branch=2
+# RESULT: PASS
+# ** Note: $finish    : tb/tb_siliconlite_cpu.v(231)
+#    Time: 676 ns  Iteration: 0  Instance: /tb_siliconlite_cpu
+# End time: 21:37:51 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
